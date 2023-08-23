@@ -17,6 +17,7 @@ const Cta = ({ title, text, buttons, theme }) => {
                 key={`ctaButton-${index}`}
               >
                 <Link
+                  legacyBehavior
                   href={delve(button, 'link.href')}
                   key={`cta-button-${index}`}
                 >

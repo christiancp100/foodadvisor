@@ -1,9 +1,11 @@
-import App from "next/app";
-import ErrorPage from "next/error";
-import { QueryClient, QueryClientProvider } from "react-query";
+import App from 'next/app';
+import ErrorPage from 'next/error';
+import { Toaster } from 'react-hot-toast';
+import { QueryClient, QueryClientProvider } from 'react-query';
 import 'tailwindcss/tailwind.css';
-import { getStrapiURL } from "../utils";
-import { getLocalizedParams } from "../utils/localize";
+import { getStrapiURL } from '../utils';
+
+import { getLocalizedParams } from '../utils/localize';
 
 const queryClient = new QueryClient();
 
@@ -16,6 +18,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <QueryClientProvider client={queryClient}>
+        <Toaster position="top-right" />
         <Component {...pageProps} />
       </QueryClientProvider>
     </>
@@ -26,6 +29,10 @@ MyApp.getInitialProps = async (appContext) => {
   const { locale } = getLocalizedParams(appContext.ctx.query);
 
   const appProps = await App.getInitialProps(appContext);
+
+  if (appContext.res) {
+    appContext.res.setHeader('Cache-Control', 'no-store');
+  }
 
   try {
     const res = await fetch(

@@ -6,7 +6,7 @@ const ArticleCard = ({ slug, title, category, seo, locale, author, image }) => {
   const description = delve(seo, 'metaDescription');
 
   return (
-    <Link href={`/blog/${slug}?lang=${locale}`}>
+    <Link legacyBehavior href={`/blog/${slug}?lang=${locale}`}>
       <a>
         <div>
           <span className="inline-block py-2 px-2 rounded bg-secondary-lightest text-secondary text-xs font-medium tracking-widest">

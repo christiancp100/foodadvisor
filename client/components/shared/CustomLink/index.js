@@ -3,13 +3,13 @@ import Link from 'next/link';
 const CustomLink = ({ label, href, locale, target, isExternal }) => {
   if (isExternal) {
     return (
-      <Link href={href}>
+      <Link legacyBehavior href={href}>
         <a target={target}>{label}</a>
       </Link>
     );
   } else {
     return (
-      <Link href={`${href}?lang=${locale || 'en'}`}>
+      <Link legacyBehavior href={`${href}?lang=${locale || 'en'}`}>
         <a target={target}>{label}</a>
       </Link>
     );

@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "plenary-chalice-257507",
+    "private_key_id": "097d35307f47791d65d9ccafd529658ab42bec63",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQClnUKNBSYGc1W7\ng91NvAY1HeqL7JIhVtlLJs8cjWC7rmJ4ODvfOckO3Gg4bsey/rOQOhAYIH0REp1m\naoo/gfCqBFinMvaE2foWmf4kHzVsQS/t/IS+Bg2eT4l1MvSas9Tw1VIe6jgVxWTW\nG2X05iaACv7i07CaFrq821lEGWbHhVV8zvrHEI4IM+YlbV9QQHJDm7OZnEvuq+PI\nmgb7A8dS3gPojSiEyGDF30V/N2lzk3r+OpjjnJl64GWwkfrEdPpb9KbYkEe3Hyzd\natmK9QHZZ2Oll1GbazHHmzUdULns04JOVAloCEQtk/uXyHg/EM8PvLOF8HJcOMq/\nPZq3zBC9AgMBAAECggEAC1EgtWmO/KKFpDz8MrimJUZjEFFdIaFr/c0BcBkKbX4a\nxSOf676+H3bY5FT67nSl0+Az2KziVE1VAM+c8ilbRwg+//CP6eofQyDIvgfSlbrV\nSfTseTO0Bd0M2Tu0fUchRke9cdayzcIMWZkhBsgcr2PmS50IP1n4RA7VHb3X88rr\nblKenujcGQ4/ya0JrU0ERN2RK8cRRNoXMRlq4vVXYZgAU929gI9gH5cKNATtl1gq\nrfYZjfawFpR84LMy5Jz/Uf/jNpjmVG2+AmFEbP2a2f6+/b6Q+oGwECY6BQ//3DTz\netSULdI1MOwwQlZhJ/TRFot/TPaJSxeW+Yn6iTsM4QKBgQDhEV3qAy2EkB0O7s0P\nHj3GhH/EttcqWqj10mR8Yj1n+AXSeaDYteVlQxumppJnmRXoO2QJnnPlr87+H1lw\nNyVA2TMahhH/y2AdvDxPWTeuREMxhwlYqzZ+7RRrA/Trn92AorAYeJpijj2UMr+5\nfWmwy7m4N2j/SyC8qGYCCNscJQKBgQC8YB7KXatDcDgGHH4+CTGWz+faw24zb+HZ\nGuSKZ18/f8UMMFzT6pSDo70O9fZWAKbh7RNytBnHjoRuQ4fLQOOmb+sJgMVNUEs9\nFSR4krArML7/O/s1t/m1+AaUZ8lk1w+sDRUzqTqHOCw01N4q8u4JjTSXA7rJigp3\nF6UngWeyuQKBgFHUkqTGywHrs+T+Bih9AlDvU9Ud9VU86TmXaVmgDluC3fsMpeKl\nH+aVY7RP0+M+0axCC7lDlzfnmAblNwuJwU22qtH19Q1f0G5/Rh5Dfe8qepPDWS6X\n8ZRsdoQCSEZzNYHTpNsA3oD+3nzHhtXWN1tEdx33Z4GKuzhcsdoDhkbRAoGBAJir\nomjKj7JBcfZqA1rN4rXi3HttppPjmnx1kkIl04lISXA+hg1ucl1aSDCm4bYEIzy6\nAugU1Uvp0qT28Ein15kd3bS++6lUaRYhW4SpBkSK5lE/0LJR3/09/j8q+otSza3Y\nkJVlEz1iJlnPKBxQ9OEi4zt9V1ZeHWs167Ff7KZpAoGAQ8PC5IGDD6qTuEdRdAFk\nYlTgZRxc6Zi9RFDLYst36079wGMGGqGxvaT0f19F1v8ckPy8XKQhER0/GGaPewmU\niC7aEFyij+ehE080F58hz+Yt+kwK2icN85Gz8bNCRG16WS4sxzOGsdYYW8xX4xun\nrCwEi6tSJbLlXMRfFdfpvz4=\n-----END PRIVATE KEY-----\n",
+    "client_email": "test-strapi-gs@plenary-chalice-257507.iam.gserviceaccount.com",
+    "client_id": "107194295137152613087",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/test-strapi-gs%40plenary-chalice-257507.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+}

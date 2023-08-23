@@ -4,10 +4,13 @@ import delve from 'dlv';
 import { formatDistance } from 'date-fns';
 
 import { getStrapiMedia } from '../../../../../utils';
+import { Textarea } from '@nextui-org/react';
+import NewReview from './new-review';
 
 const Reviews = ({ reviews }) => {
   return (
     <div className="col-start-2 col-end-2 mt-24">
+      <NewReview />
       {reviews &&
         reviews.map((review, index) => (
           <div

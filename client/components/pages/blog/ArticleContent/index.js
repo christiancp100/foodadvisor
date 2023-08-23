@@ -34,9 +34,7 @@ const ArticleContent = ({ attributes }) => {
                 src={getStrapiMedia(delve(image, 'data.attributes.url'))}
               />
             </div>
-            <div className="flex flex-col sm:flex-row mt-10 items-center justify-center">
-              
-            </div>
+            <div className="flex flex-col sm:flex-row mt-10 items-center justify-center"></div>
           </div>
           <div className="markdown-body ck-content shadow-lg rounded-xl lg:w-4/6 w-full md:p-12 p-6 mt-2 bg-white">
             <div className={styles['ck-no-border']}>
@@ -53,7 +51,7 @@ const ArticleContent = ({ attributes }) => {
               />
             </div>
           </div>
-          <Link href={`/blog?lang=${locale}`}>
+          <Link legacyBehavior href={`/blog?lang=${locale}`}>
             <button
               type="button"
               className="ml-2 py-4 mt-8 px-6 bg-secondary hover:bg-secondary-darker text-white w-1/8 text-center text-base font-semibold shadow-sm rounded-md"

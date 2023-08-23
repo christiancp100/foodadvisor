@@ -3,7 +3,7 @@ import Link from 'next/link';
 const SocialLogo = ({ url, size }) => {
   if (url && url.includes('facebook')) {
     return (
-      <Link href={url} key={url}>
+      <Link legacyBehavior href={url} key={url}>
         <a target="_blank">
           <svg
             width={size}
@@ -21,7 +21,7 @@ const SocialLogo = ({ url, size }) => {
     );
   } else if (url && url.includes('twitter')) {
     return (
-      <Link href={url} key={url}>
+      <Link legacyBehavior href={url} key={url}>
         <a target="_blank">
           <svg
             width={size}
@@ -38,7 +38,7 @@ const SocialLogo = ({ url, size }) => {
     );
   } else if (url && url.includes('github')) {
     return (
-      <Link href={url} key={url}>
+      <Link legacyBehavior href={url} key={url}>
         <a target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +55,7 @@ const SocialLogo = ({ url, size }) => {
     );
   } else if (url && url.includes('linkedin')) {
     return (
-      <Link href={url} key={url}>
+      <Link legacyBehavior href={url} key={url}>
         <a target="_blank">
           <svg
             width={size}
@@ -72,7 +72,7 @@ const SocialLogo = ({ url, size }) => {
     );
   } else if (url && url.includes('instagram')) {
     return (
-      <Link href={url} key={url}>
+      <Link legacyBehavior href={url} key={url}>
         <a target="_blank">
           <svg
             width={size}

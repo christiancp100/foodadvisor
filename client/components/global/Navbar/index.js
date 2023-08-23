@@ -14,7 +14,6 @@ const Navigation = ({ navigation, pageData, type }) => {
           button={delve(navigation, 'leftButton')}
           locale={delve(pageData, 'attributes.locale')}
         />
-
         <Nav
           links={delve(navigation, 'links')}
           locale={delve(pageData, 'attributes.locale')}
@@ -37,7 +36,7 @@ const Navigation = ({ navigation, pageData, type }) => {
               target={delve(navigation, 'rightButton.target')}
               label={delve(navigation, 'rightButton.label')}
             />
-            <LocalSwitch pageData={pageData} type={type} />
+            {pageData && <LocalSwitch pageData={pageData} type={type} />}
           </div>
         )}
       </div>

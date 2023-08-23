@@ -8,7 +8,6 @@
     "description": ""
   },
   "options": {
-    "reviewWorkflows": false,
     "draftAndPublish": true
   },
   "pluginOptions": {
@@ -127,6 +126,11 @@
       "relation": "oneToMany",
       "target": "api::review.review",
       "mappedBy": "restaurant"
+    },
+    "owner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
     }
   }
 }
